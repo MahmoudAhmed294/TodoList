@@ -1,0 +1,29 @@
+.taskControl{
+
+    padding: 15px 30px;
+}
+
+.task {
+
+  padding: 15px 30px;
+  margin: 20px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.task-rightPart p {
+    margin-bottom: 5px !important;
+  color: var(--font-color);
+  
+}
+
+.task-rightPart .date {
+  font-size: 12px !important;
+}
+.task-rightPart .taskInfo {
+  font-size: 16px !important;
+}
+.Taskdelete .ant-btn-dangerous{
+    border-color: var(--font-color) !important;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 12%) !important;
+
+}

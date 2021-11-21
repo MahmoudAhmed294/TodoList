@@ -1,0 +1,62 @@
+.addTask{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.addTaskBtn{
+    background: var(--selected-color) !important;
+    padding: 10px;
+    width: 45px !important;
+    height: 45px !important;
+    border-color: var(--selected-color) !important;
+    box-shadow: 1px 2px 0 rgb(0 0 0 / 12%);
+margin:50px auto 0 auto;
+}
+.ant-modal{
+top: 200px !important;
+width: 50% !important;
+}
+.ant-modal-mask{
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.ant-modal-header ,.ant-modal-close ,.ant-modal-body{
+    display: none !important;
+}
+.ant-modal-content{
+
+    border-radius: 15px !important;
+}
+
+.ant-modal-footer{
+    display: flex;
+    align-items: baseline;
+    padding:  20px !important;
+    border-top:unset !important;
+}
+.ant-input{
+    margin-right: 35px !important;
+    border-radius: 10px !important;
+background-color: #F3F3F3 !important;
+border: unset !important;
+}
+.modelBtn{
+    border-radius: 10px !important;
+    height: 28px !important;
+    padding: 0 20px !important;
+    border: unset !important;
+font-weight: 600 !important;
+font-size: 12px !important;
+
+}
+.modelCancelBtn{
+color: #FF7E7E !important;
+background-color: #FDE5E5 !important;
+}
+.modelDoneBtn{
+    color: #00A389  !important;
+    background-color: #DEF7EF !important;
+    
+}

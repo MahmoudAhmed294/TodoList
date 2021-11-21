@@ -1,0 +1,9 @@
+.taskList{
+    background: var(--font-color);
+    padding: 20px 30px;
+    border-radius: 20px;
+    max-width: 65%;
+    margin: auto;
+
+}
+

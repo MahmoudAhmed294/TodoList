@@ -1,0 +1,18 @@
+.taskControl-rightPart p{
+    margin-bottom: 5px !important;
+    color: #797684;
+}
+
+.taskControl-rightPart .taskInfo{
+font-weight: 500;    
+}
+
+.listControllerIcon button{
+    margin: 0 5px;
+}
+
+.listControllerIcon button:nth-last-child(1){
+background: var(--selected-color) !important;
+border-color:  var(--selected-color) !important;
+
+}
